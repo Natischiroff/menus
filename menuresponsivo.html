@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <style>
+        @media screen and (max-widht:600px){
+        nav a{
+        float : none;
+        text-align:center;
+        font-size: 25px;
+        }
+         }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu responsivo</title>
 </head>
+
 <body>
     <h1>Menu Responsivo</h1>
     <nav>
@@ -16,7 +27,47 @@
 
     <div class="principal">
         <h2>Seu Conteúdo Aqui</h2>
-<p>Este é um exemplo de conteúdo abaixo do menu.</p>
+        <p>Este é um exemplo de conteúdo abaixo do menu.</p>
     </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: rgb(177, 50, 114);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+            /* Para alinhar os itens horizontalmente */
+        }
+
+        nav a:hover {
+            background-color: pink;
+            color: black;
+        }
+
+        /* Limpa o float */
+        /* nav::after {
+content: "";
+clear: both;
+display: table;
+} */
+
+        .principal {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </body>
+
 </html>
